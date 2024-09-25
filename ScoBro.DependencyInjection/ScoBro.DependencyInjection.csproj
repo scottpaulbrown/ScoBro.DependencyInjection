@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Super basic package that extends Scrutor to make it simple to register services</Title>
+    <Version>0.0.2-alpha</Version>
+    <Authors>Scott Brown</Authors>
+    <Company>ScoBro Software</Company>
+    <PackageProjectUrl>https://github.com/scottpaulbrown/ScoBro.DependencyInjection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/scottpaulbrown/ScoBro.DependencyInjection</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <PackageReference Include="Scrutor" Version="4.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ScoBro.DependencyInjection.Abstraction\ScoBro.DependencyInjection.Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>

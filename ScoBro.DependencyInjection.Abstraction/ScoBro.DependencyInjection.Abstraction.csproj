@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Title>Core interfaces used by ScoBro.DependencyInjection</Title>
+    <Version>0.0.2-alpha</Version>
+    <Authors>Scott Brown</Authors>
+    <Company>ScoBro Software</Company>
+    <PackageProjectUrl>https://github.com/scottpaulbrown/ScoBro.DependencyInjection</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/scottpaulbrown/ScoBro.DependencyInjection</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
